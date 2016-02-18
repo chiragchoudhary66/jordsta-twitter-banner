@@ -1,0 +1,60 @@
+// Button
+
+.button {
+	font-weight: 700;
+	font-size: rem-calc(18);
+	position: relative;
+	overflow: hidden;
+	border: 1px solid transparent;
+	transition: none;
+	transition: 0.3s color ease-in-out;
+	background: none;
+	z-index: 10;
+
+	&:hover {
+		background: none;
+		color: #fff;
+	}
+
+	&:hover:after, &:active:after {
+		width: 110%;
+	}
+
+	// Replacement background (blue)
+	&:before {
+		content: '';
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		background: $primary-color;
+		position: absolute;
+		z-index: -2;
+	}
+
+	// Active bg (red)
+	&:after {
+		width: 0%;
+		height: 100%;
+		top: 0;
+		left: -2%;
+		background: $secondary-color;
+		content: '';
+		position: absolute;
+		z-index: -1;
+		transition: all 0.2s ease-in-out;
+		transform: skewX(-30deg); //60 deg in illustrator
+	}
+}
+
+.inverse.button {
+	color: $primary-color;
+
+	&:before {
+		background: #fff;
+	}
+
+	&:hover {
+		color: #fff;
+	}
+}

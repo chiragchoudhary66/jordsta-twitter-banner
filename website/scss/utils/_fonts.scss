@@ -1,0 +1,24 @@
+// Fonts
+
+@font-face {
+  font-family: 'Lovelo Black';
+  src: url('/assets/fonts/Lovelo Black.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Lovelo Black.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/Lovelo Black.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/Lovelo Black.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/Lovelo Black.svg#62039508e1578d4519008a389c57e380') format('svg'); /* Legacy iOS */
+  font-style:   normal;
+  font-weight:  400;
+}
+
+@font-face {
+  font-family: 'Lovelo Line Light';
+  src: url('/assets/fonts/Lovelo Line Light.eot'); /* IE9 Compat Modes */
+  src: url('/assets/fonts/Lovelo Line Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/assets/fonts/Lovelo Line Light.woff') format('woff'), /* Modern Browsers */
+       url('/assets/fonts/Lovelo Line Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/assets/fonts/Lovelo Line Light.svg#3de73eb122b125bdd98e31bc48b74e49') format('svg'); /* Legacy iOS */
+  font-style:   normal;
+  font-weight:  200;
+}
+

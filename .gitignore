@@ -1,0 +1,7 @@
+.env
+error.log
+node_modules/*
+tmp/*
+website/bower_components/*
+website/node_modules/*
+npm-debug.log
